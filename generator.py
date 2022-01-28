@@ -78,17 +78,3 @@ def creatphone():
 
 # 生成学生邮箱，此为备用选项，可加可删
 
-# 定义main函数
-def main():
-    creatname()
-    creatnum()
-    creatsex()
-    creatage()
-    creatcollge()
-    creatmajor()
-    creatphone()
-
-
-if __name__ == '__main__':
-    main()
-#cesium
