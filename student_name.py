@@ -39,3 +39,4 @@ def random_name():
         if random.choice(range(2)) > 0:
             name_1 = name[random.choice(range(len(name)))]
         return firstName_name + name_1 + boy_name + "\t男"
+#库
