@@ -18,7 +18,7 @@ def creatname():
 def creatnum():
     # 创建空的列表存储生成的学生学号
     managenum = []
-    for i in range(1, 1000):
+    for i in range(1000):
         managenum.append("2019102060" + str(i).zfill(3))
     return managenum
 
@@ -36,9 +36,10 @@ def creatsex():
 # 生成年龄
 def creatage():
     # 创建空的列表存储生成的学生的年龄
+    b=[]
     manageage = []
     for i in range(1000):
-        manageage.append(random.randint(18, 15))
+        manageage.append(str(random.randint(18,20)))
     return manageage
 
 
